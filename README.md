@@ -1,5 +1,7 @@
 # CardputerUSBGPS
 
+[![CI](https://github.com/AtomDreams/CardputerUSBGPS/actions/workflows/ci.yml/badge.svg)](https://github.com/AtomDreams/CardputerUSBGPS/actions/workflows/ci.yml)
+
 Raw NMEA passthrough firmware for an M5 Cardputer connected to an AT6668 GPS Unit.
 
 After flashing, the Cardputer appears on the host as a USB serial device and streams live NMEA sentences directly from the GPS Unit.
