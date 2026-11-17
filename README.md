@@ -77,3 +77,7 @@ This is a raw serial GPS source. It can be used by:
 ## Permissions
 
 If the current user cannot open `/dev/ttyACM0`, verify data availability once with `sudo`, then configure a udev rule or user permission for repeated non-sudo access.
+
+## License
+
+This project is licensed under the MIT license. See `LICENSE`.
