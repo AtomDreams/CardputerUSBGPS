@@ -30,6 +30,14 @@ The firmware is a direct passthrough:
 - Every byte received from the GPS Unit is written unchanged to USB serial.
 - No GPS parsing, display, filtering, storage, or TinyGPSPlus processing is performed.
 
+## Prebuilt firmware
+
+A CI-built firmware binary for `v0.1.0` is attached to the GitHub release:
+
+- [Download `firmware.bin`](https://github.com/AtomDreams/CardputerUSBGPS/releases/download/v0.1.0/firmware.bin)
+- Release page: https://github.com/AtomDreams/CardputerUSBGPS/releases/tag/v0.1.0
+- SHA-256: `de491da803252c7be2bbb4ee890b02ed25e1d09411f24e291aef1a555e802ddd`
+
 ## Flash with PlatformIO
 
 From the repository directory:
